@@ -435,6 +435,7 @@ h2::after {
     background-color: var(--highlight-bg-color);
     color: var(--highlight-bg-white);
     border-radius: 10px;
+     color: var(--highlight-bg-white);
 
 }
 
@@ -458,12 +459,12 @@ h2::after {
     text-align: center;
     color: var(--highlight-bg-green);
 }
-
-.stories-card-footer {
-    background-color: var(--highlight-bg-color);
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
+.stories-card-footer{
+     background-color: var(--highlight-bg-color);
+     margin: 10px;
+     padding: 10px;
+     border-radius: 10px;
+    color: var(--highlight-bg-white);
 }
 
 .blog {
@@ -473,4 +474,37 @@ h2::after {
 .blog-img {
     padding: 10px;
     border-radius: 20px;
+    height: 300px;
 }
+.blog-title{
+    text-align: center;
+     color: var(--highlight-bg-color);
+}
+.blog-card-footer{
+    background-color: var(--highlight-bg-color);
+     margin: 10px;
+     padding: 10px;
+     border-radius: 10px;
+     color: var(--highlight-bg-white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
