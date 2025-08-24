@@ -1,0 +1,153 @@
+:root {
+    --highlight-bg-color: #dc2323;
+    --custom-marque-yellow: #ffe200;
+    --highlight-text-color: #fff;
+    --highlight-bg-white: #f5f5f5;
+    --highlight-bg-green: #086a3b;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--highlight-bg-white)
+}
+
+.custom-text-warning {
+    color: var(--custom-marque-yellow)
+}
+
+.custom-bg-white {
+    background-color: var(--highlight-bg-white)
+}
+
+
+
+#mainNavbar.sticky-active {
+    width: 100%;
+}
+
+/* Custom marquee hide */
+.custom-marque.hide {
+    display: none !important;
+}
+
+/* donation button start*/
+
+.custom-donate-btn {
+    background-color: var(--highlight-bg-color);
+    color: #fff;
+    transition: background-color 0.4s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.custom-donate-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--highlight-bg-green);
+    transition: left 0.4s ease-in-out;
+    z-index: -1;
+}
+
+.custom-donate-btn:hover::before {
+    left: 0;
+}
+
+.custom-donate-btn:hover {
+    color: #fff;
+    /* optional */
+}
+
+/* donation button start*/
+
+
+
+.scrolling-text {
+    display: inline-block;
+    max-width: 80%;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    font-size: 1.1rem;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Removed opacity transition */
+}
+
+
+.custom-marque {
+    background-color: var(--highlight-bg-color);
+    color: var(--highlight-text-color);
+
+}
+
+.navbar-brand img {
+    max-height: 60px;
+    object-fit: contain;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav .dropdown:hover .dropdown-menu {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+}
+
+/* Animation effect */
+.fade-dropdown {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+}
+
+/* Navbar padding & spacing */
+.navbar-nav .nav-link {
+    padding: 5px 15px;
+    font-weight: 500;
+}
+
+.dropdown-menu {
+    border-radius: 10px;
+    font-weight: 500;
+    min-width: 180px;
+}
+
+.rounded-14 {
+    border-radius: 14px !important;
+}
+
+/* misty css */
+
+.card-title-history{
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #dc2323;
+    color: #f5f5f5;
+}
+.history{
+    position: relative;
+    top: -40px;
+    z-index: 19;
+
+   
+}
+.service-b-color{
+     border-bottom:2px solid #dc2323;
+     border-radius: 10px;
+     
+}
+.our-service{
+    border-radius: 2px solid;
+    
+}
