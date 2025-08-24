@@ -1,3 +1,4 @@
+/* labib */
 :root {
     --highlight-bg-color: #dc2323;
     --custom-marque-yellow: #ffe200;
@@ -36,11 +37,12 @@ body {
 
 .custom-donate-btn {
     background-color: var(--highlight-bg-color);
-    color: #fff;
+    color: var(--highlight-text-color);
     transition: background-color 0.4s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease;
     position: relative;
     z-index: 1;
     overflow: hidden;
+    font-weight: bold;
 }
 
 .custom-donate-btn::before {
@@ -60,7 +62,7 @@ body {
 }
 
 .custom-donate-btn:hover {
-    color: #fff;
+    color: var(--highlight-text-color);
     /* optional */
 }
 
@@ -126,28 +128,205 @@ body {
     border-radius: 14px !important;
 }
 
-/* misty css */
 
-.card-title-history{
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    background-color: #dc2323;
-    color: #f5f5f5;
+.dropdown-toggle::after {
+    display: none !important;
 }
-.history{
+
+.icon-sm-drop-down {
+    font-size: 12px;
+}
+
+.nav-link.text-dark {
+    font-weight: bold;
+}
+
+
+.font-15 {
+    font-size: 15px;
+}
+
+/* misty css */
+.history {
     position: relative;
     top: -40px;
     z-index: 19;
+    padding-right: 3rem;
+    padding-left: 3rem;
 
-   
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
-.service-b-color{
-     border-bottom:2px solid #dc2323;
-     border-radius: 10px;
-     
+
+.card-title-history {
+    border-radius: 5px 5px 0 0;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--highlight-bg-color);
+    color: var(--highlight-bg-white);
 }
-.our-service{
+
+.card-b-color {
+    border-bottom: 3px solid var(--highlight-bg-color);
+    border-radius: 10px;
+}
+
+.history .col-md-3 {
+    display: flex;
+}
+
+.history .card {
+    flex: 1;
+    /* column ভরে দেবে */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .card-text {
+    flex: 1;
+}
+
+.history-translateY {
+    display: block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+}
+
+.history-translateY .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.history-translateY:hover .card {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+
+@media (max-width: 320px) {
+
+    .history {
+        top: 4px;
+        z-index: 0;
+        margin-right: 0rem;
+        margin-left: 0rem;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+
+    .font-15 {
+        font-size: 12px;
+    }
+
+    .card-text {
+        font-size: 10px;
+    }
+
+
+    .history>.col-md-3 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-bottom: 4px;
+    }
+
+
+
+    .history .col-md-3 {
+        display: flex;
+    }
+
+    .history .card {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-body {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-body .card-text {
+        flex: 1;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+    .history {
+        top: 4px;
+        z-index: 0;
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .font-15 {
+        font-size: 14px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    .history>.col-md-3 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-bottom: 4px;
+    }
+
+    .history .col-md-3 {
+        display: flex;
+    }
+
+    .history .card {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-body {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-body .card-text {
+        flex: 1;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .font-15 {
+        font-size: 6px;
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+
+    .font-15 {
+        font-size: 11px;
+    }
+
+}
+
+.our-service {
     border-radius: 2px solid;
-    
 }
