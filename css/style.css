@@ -239,3 +239,10 @@ body {
      padding: 10px;
      border-radius: 10px;
 }
+.blog{
+    padding: 40px;
+}
+.blog-img{
+    padding: 10px;
+    border-radius: 20px;
+}
