@@ -396,6 +396,7 @@ body {
     padding: 10px;
     background-color: #dc2323;
     border-radius: 10px;
+     color: var(--highlight-bg-white);
 
 }
 .stories{
@@ -420,6 +421,7 @@ body {
      margin: 10px;
      padding: 10px;
      border-radius: 10px;
+      color: var(--highlight-bg-white);
 }
 .blog{
     padding: 40px;
@@ -427,4 +429,37 @@ body {
 .blog-img{
     padding: 10px;
     border-radius: 20px;
+    height: 300px;
 }
+.blog-title{
+    text-align: center;
+     color: var(--highlight-bg-color);
+}
+.blog-card-footer{
+    background-color: var(--highlight-bg-color);
+     margin: 10px;
+     padding: 10px;
+     border-radius: 10px;
+     color: var(--highlight-bg-white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
