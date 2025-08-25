@@ -487,8 +487,36 @@ h2::after {
      border-radius: 10px;
      color: var(--highlight-bg-white);
 }
+.jakat-img{
+    padding: 10px;
+    border-radius: 20px;
 
-
+}
+.jakat-form{
+    padding: 20px;
+}
+.donate-card-button{
+  text-align: center;
+  padding: 20px;
+  margin:10px;
+    
+}
+.donateJaket-title{
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    background-color: var(--highlight-bg-color);
+     color: var(--highlight-bg-white);
+     border-radius: 10px;
+}
+.jakat-card{
+    box-shadow: 2px 4px 25px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 4px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 4px 25px -4px rgba(0,0,0,0.75);
+}
+.sponsorChild{
+    padding: 15px;
+}
 
 
 
