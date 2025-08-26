@@ -206,12 +206,6 @@ body {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
-
-
-
-
-
-
 @media (max-width: 320px) {
 
     .history {
@@ -382,7 +376,7 @@ body {
     border-radius: 8px;
 }
 
-.executive-img img {
+.executive-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -447,6 +441,7 @@ h2::after {
 .stories-img {
     padding: 8px;
     border-radius: 15px;
+    height: 300px
 }
 
 .stories-title {
@@ -495,6 +490,16 @@ h2::after {
 .jakat-form{
     padding: 20px;
 }
+.donate-card{
+    transition: transform 0.4s ease-in-out; 
+}
+.donate-card:hover{
+     transform: scale(1.05);
+}
+.donate-card-title{
+    text-align: center;
+    padding: 10px;
+}
 .donate-card-button{
   text-align: center;
   padding: 20px;
@@ -517,8 +522,54 @@ h2::after {
 .sponsorChild{
     padding: 15px;
 }
+.advisory-img{
+    padding: 10px;
+    text-align: center;
+}
+.advisory-name{
+    text-align: center;
+    color: var(--highlight-bg-color);
+}
+.advisory-title{
+      text-align: center;
+    color: var(--highlight-bg-green);
+}
+.story-img{
+    padding: 10px;
+    text-align: center;
+}
+.story-name{
+    text-align: center;
+    color: var(--highlight-bg-color);
+}
+.story-title{
+    text-align: center;
+    color: var(--highlight-bg-green);
+}
 
 
+.photo-card {
+  transition: transform 0.4s ease-in-out; 
+}
+.photo-card-title{
+    padding: 10px;
+}
+.photo-card:hover {
+  transform: scale(1.05);
+}
+.executive{
+    padding: 20px;
+    padding-top: 30px;
+}
+.executive-committe-img{
+    padding: 20px;
+}
+.executive-committe-card{
+     transition: transform 0.4s ease-in-out; 
+}
+.executive-committe-card:hover{
+    transform: scale(1.05);
+}
 
 
 
