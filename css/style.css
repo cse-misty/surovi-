@@ -206,6 +206,7 @@ body {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
+
 @media (max-width: 320px) {
 
     .history {
@@ -371,7 +372,7 @@ body {
 .executive-img {
     width: 100%;
     height: 250px;
-   
+
     overflow: hidden;
     border-radius: 8px;
 }
@@ -401,11 +402,11 @@ h2::after {
 
 .achievements-img {
     margin: 0 auto;
-    padding-left: 30px;
+    padding-left: 15px;
     background-color: #f5f5f5;
     border-radius: 50px;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     box-shadow: 3px 5px 5px 3px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 3px 5px 5px 3px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 3px 5px 5px 3px rgba(0, 0, 0, 0.75);
@@ -413,8 +414,8 @@ h2::after {
 }
 
 .acivment-imgas {
-    margin: 18px 2px 8px -9px;
-    height: 70px;
+    margin: 14px 2px 8px 1px;
+    height: 50px;
 }
 
 .achievements-card-title {
@@ -429,7 +430,7 @@ h2::after {
     background-color: var(--highlight-bg-color);
     color: var(--highlight-bg-white);
     border-radius: 10px;
-     color: var(--highlight-bg-white);
+    color: var(--highlight-bg-white);
 
 }
 
@@ -454,11 +455,12 @@ h2::after {
     text-align: center;
     color: var(--highlight-bg-green);
 }
-.stories-card-footer{
-     background-color: var(--highlight-bg-color);
-     margin: 10px;
-     padding: 10px;
-     border-radius: 10px;
+
+.stories-card-footer {
+    background-color: var(--highlight-bg-color);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
     color: var(--highlight-bg-white);
 }
 
@@ -471,119 +473,213 @@ h2::after {
     border-radius: 20px;
     height: 300px;
 }
-.blog-title{
+
+.blog-title {
     text-align: center;
-     color: var(--highlight-bg-color);
+    color: var(--highlight-bg-color);
 }
-.blog-card-footer{
+
+.blog-card-footer {
     background-color: var(--highlight-bg-color);
-     margin: 10px;
-     padding: 10px;
-     border-radius: 10px;
-     color: var(--highlight-bg-white);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--highlight-bg-white);
 }
-.jakat-img{
+
+.jakat-img {
     padding: 10px;
     border-radius: 20px;
 
 }
-.jakat-form{
+
+.jakat-form {
     padding: 20px;
 }
-.donate-card{
-    transition: transform 0.4s ease-in-out; 
+
+.donate-card {
+    transition: transform 0.4s ease-in-out;
 }
-.donate-card:hover{
-     transform: scale(1.05);
+
+.donate-card:hover {
+    transform: scale(1.05);
 }
-.donate-card-title{
+
+.donate-card-title {
     text-align: center;
     padding: 10px;
 }
-.donate-card-button{
-  text-align: center;
-  padding: 20px;
-  margin:10px;
-    
+
+.donate-card-button {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+
 }
-.donateJaket-title{
+
+.donateJaket-title {
     text-align: center;
     padding: 10px;
     margin: 20px;
     background-color: var(--highlight-bg-color);
-     color: var(--highlight-bg-white);
-     border-radius: 10px;
+    color: var(--highlight-bg-white);
+    border-radius: 10px;
 }
-.jakat-card{
-    box-shadow: 2px 4px 25px -4px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 2px 4px 25px -4px rgba(0,0,0,0.75);
-    -moz-box-shadow: 2px 4px 25px -4px rgba(0,0,0,0.75);
+
+.jakat-card {
+    box-shadow: 2px 4px 25px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 4px 25px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 4px 25px -4px rgba(0, 0, 0, 0.75);
 }
-.sponsorChild{
+
+.sponsorChild {
     padding: 15px;
 }
-.advisory-img{
+
+.advisory-img {
     padding: 10px;
     text-align: center;
 }
-.advisory-name{
+
+.advisory-name {
     text-align: center;
     color: var(--highlight-bg-color);
 }
-.advisory-title{
-      text-align: center;
+
+.advisory-title {
+    text-align: center;
     color: var(--highlight-bg-green);
 }
-.story-img{
+
+.story-img {
     padding: 10px;
     text-align: center;
 }
-.story-name{
+
+.story-name {
     text-align: center;
     color: var(--highlight-bg-color);
 }
-.story-title{
+
+.story-title {
     text-align: center;
     color: var(--highlight-bg-green);
 }
 
 
 .photo-card {
-  transition: transform 0.4s ease-in-out; 
+    transition: transform 0.4s ease-in-out;
 }
-.photo-card-title{
+
+.photo-card-title {
     padding: 10px;
 }
+
 .photo-card:hover {
-  transform: scale(1.05);
-}
-.executive{
-    padding: 20px;
-    padding-top: 30px;
-}
-.executive-committe-img{
-    padding: 20px;
-}
-.executive-committe-card{
-     transition: transform 0.4s ease-in-out; 
-}
-.executive-committe-card:hover{
     transform: scale(1.05);
 }
 
+.executive {
+    padding: 20px;
+    padding-top: 30px;
+}
 
+.executive-committe-img {
+    padding: 20px;
+}
 
+.executive-committe-card {
+    transition: transform 0.4s ease-in-out;
+}
 
+.executive-committe-card:hover {
+    transform: scale(1.05);
+}
 
+.photo-card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.photo-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
 
+.photo-card img {
+    transition: transform 0.5s ease;
+    border-radius: 15px 15px 0 0;
+}
 
+.photo-card:hover img {
+    transform: scale(1.1);
+}
 
+.photo-card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.photo-card:hover .overlay {
+    opacity: 1;
+}
 
+.overlay i {
+    color: #fff;
+    font-size: 2rem;
+}
 
+.story-card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.story-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
 
+.story-img img {
+    border-radius: 15px 15px 0 0;
+    transition: transform 0.5s ease;
+}
 
+.story-card:hover .story-img img {
+    transform: scale(1.1);
+}
 
+.story-name {
+    font-size: 1rem;
+    color: #198754;
+}
 
+.story-title {
+    font-size: 0.9rem;
+}
+
+.card-img-top {
+    margin-bottom: 5px;
+    width: 100%;
+    height: auto;
+    transition: transform 0.4s ease, filter 0.4s ease, box-shadow 0.4s ease;
+    
+    border-radius: 10px;
+}
+
+.card-img-top:hover {
+    transform: scale(1.0.5) translateY(-1px);
+    /* 10% বড় হবে + উপরে সামান্য উঠবে */
+
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
