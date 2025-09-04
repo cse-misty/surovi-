@@ -683,3 +683,79 @@ h2::after {
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
+
+.textHospital{
+   padding: 20px;
+    padding-left: 40px;
+}
+.single-footer{
+    text-decoration: none;
+   
+}
+.importent{
+    padding-left: 30px;
+}
+
+
+.footer-link:hover {
+  color: #ffdd57;
+  transition: 0.3s;
+}
+/* Social Icons Gradient */
+.social-icon {
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.gradient-facebook { background: linear-gradient(45deg, #1877f2, #00c6ff); }
+.gradient-twitter { background: linear-gradient(45deg, #1da1f2, #0abcf0); }
+.gradient-instagram { background: linear-gradient(45deg, #feda75, #d62976); }
+.gradient-linkedin { background: linear-gradient(45deg, #0a66c2, #21a3ff); }
+.social-icon:hover { transform: translateY(-5px) scale(1.1); color: #fff; }
+
+/* 3D Button Effect */
+.btn-3d {
+  background-color: #cacd23;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 5px #caa932;
+}
+.btn-3d:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px #ca3235;
+}
+
+/* Back to Top Button */
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #be4242; /* হালকা লাল */
+  color: white;
+  cursor: pointer;
+  padding: 12px 15px;
+  border-radius: 50%;
+  transition: background-color 0.3s, transform 0.3s;
+}
+#backToTop:hover {
+  background-color: #ff4f4f;
+  transform: translateY(-3px);
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
